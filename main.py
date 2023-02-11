@@ -18,7 +18,7 @@ from threading import Thread
 import redis
 import logging
 
-Fruit1 = "531469bf0cbeb1550881054be27d92d" 
+Fruit1 = "018b8d548a10d487f4dd2be5a7dc094b" 
 Fruit2 = "4063c15405c1dac5a621610840b274f8"
 
 def Num1():
