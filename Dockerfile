@@ -1,4 +1,4 @@
-FROM python:3.9
+FROM python:3.8
 
 WORKDIR /usr/src/app
 
@@ -7,6 +7,6 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir --upgrade pip && \
     pip install --no-cache-dir -r requirements.txt
 
-COPY dsa.py .
+COPY main.py .
 
-CMD [ "python", "dsa.py"]
+CMD [ "python", "main.py"]
