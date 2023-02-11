@@ -94,5 +94,5 @@ def Num2():
     
 
 Thread(target=Num1).start()
-Thread(target=Num2).start()
+#Thread(target=Num2).start()
 
